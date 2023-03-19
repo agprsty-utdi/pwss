@@ -1,7 +1,7 @@
 <?php
 
-$loop_whi = $_POST["loop_whi"] ?? "off";
-if ($loop_whi == "on") {
+$loop_dwhi = $_POST["loop_dwhi"] ?? "off";
+if ($loop_dwhi == "on") {
     echo "- Perulangan dengan <strong>Do-While</strong>: <br/><br/>";
     
     // Perulangan do while

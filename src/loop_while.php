@@ -1,8 +1,8 @@
 <?php
 
 
-$loop_dwhi = $_POST["loop_dwhi"] ?? "off";
-if ($loop_dwhi == "on") {
+$loop_whi = $_POST["loop_whi"] ?? "off";
+if ($loop_whi == "on") {
     echo "- Perulangan dengan <strong>While</strong>: <br/><br/>";    
 
     if ($nilai1 >= $nilai2) {
