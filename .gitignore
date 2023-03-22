@@ -1,5 +1,6 @@
 # Editor
 .vscode
+/materi
 
 # Container file
 /docker/mysql/*
