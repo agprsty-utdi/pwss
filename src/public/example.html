@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+        .container {
+		            width: 700px;
+			                height: 400px;
+					            position: relative;
+						                display: block;
+								            padding: 1rem;
+									            }
+
+	        .container::before {
+			            content: "";
+				                background-image: url('https://hdwallpaperim.com/wp-content/uploads/2017/08/31/148167-water-bridge-dock-748x468.jpg');
+						            opacity: 0.2;
+							                position: absolute;
+									            top: 0;
+										                bottom: 0;
+												            right: 0;
+													                left: 0;
+															            width: auto;
+																                height: auto;
+																		            z-index: -3;
+																			            }
+
+
+		        .container h1 {
+				            text-align: center;
+					                /*   color: white; */
+					                font-size: 49px;
+							        }
+			    </style>
+ </head>
+ <body>
+  <div class="container">
+    <h1>Hello World!<h1/>
+  </div>
+ </body>
+</html>
