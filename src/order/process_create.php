@@ -51,4 +51,4 @@ foreach ($orders as $order) {
     }
 }
 
-echo "<script>window.location.href = 'view.php';</script>";
+echo "<script>window.location.href = 'index.php';</script>";
